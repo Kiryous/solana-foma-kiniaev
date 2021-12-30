@@ -22,5 +22,6 @@ bash ./create-new-wallet.sh
 
 ## You'll get
 1. New keypair will be generated without prompting for a BIP39 passphrase.
-2. Private key will be saved in file with the name `id-<count>_<pubkey>.json`.
-3. Public key also will be saved in pubkeys.txt on new line.   
+2. Private key will be saved in file with the name `id-<count>_<public-key>.json`.
+3. Public key also will be saved in pubkeys.txt as new line, like the following: `<count> | <public-key>`
+4. Count will be incremented and saved in `count.txt`
